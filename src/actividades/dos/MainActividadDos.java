@@ -1,4 +1,4 @@
-package actividades.cuatro;
+package actividades.dos;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
