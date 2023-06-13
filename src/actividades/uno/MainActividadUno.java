@@ -21,9 +21,10 @@ public class MainActividadUno {
 
         try {
             FileWriter escritorDeTexto = new FileWriter("src/ficheros/actividad1.txt");
-            for (int i = 0; i < texto.length(); i++) {
+            /*for (int i = 0; i < texto.length(); i++) {
                 escritorDeTexto.write(texto.charAt(i));
-            }
+            }*/
+            escritorDeTexto.write(texto);
             escritorDeTexto.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
